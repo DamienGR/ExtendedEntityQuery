@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains extended_entity_query.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function extended_entity_query_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the extended_entity_query module.
+    case 'help.page.extended_entity_query':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Extended Entity Query') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "extended_entity_query",
+    "type": "drupal-module",
+    "description": "Extended Entity Query",
+    "keywords": [
+    ],
+    "minimum-stability": "dev"
+}

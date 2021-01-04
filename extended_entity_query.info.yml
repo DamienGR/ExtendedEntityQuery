@@ -1,0 +1,6 @@
+name: 'Extended Entity Query'
+type: module
+description: 'Extended Entity Query'
+core_version_requirement: ^8.8 || ^9
+php: 7.3
+package: 'Entity'
